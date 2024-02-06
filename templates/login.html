@@ -6,14 +6,28 @@
 </head>
 <body>
 <h1> Login Page</h1>
-    <form method="POST",action="">
+
+        {% with messages = get_flashed_messages(with_categories=true) %}
+        {% if messages %}
+            {% for category, message in messages %}
+                <div class="alert alert-{{ category }}">
+                    {{ message }}
+                </div>
+            {% endfor %}
+        {% endif %}
+    {% endwith %}
+
+
+    <form method="POST", action="">
+        {{ form.csrf_token }}
         {{form.hidden_tag()}}
-        {{form.username}}
+        {{form.login_input}}
         {{form.password}}
         {{form.submit}}
 
 
     </form>
     <a>Don't have an account. </a> <a href="{{url_for('register')}}">Sign Up</a><br>
+    <a href="{{url_for('reset_request')}}">Forget your password? </a>
 </body>
 </html>
