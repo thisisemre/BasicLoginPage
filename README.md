@@ -36,10 +36,30 @@ This Flask application provides a robust user authentication system, facilitatin
 
 5. **Logout:** Users can log out of their account securely.
 
+## Screenshots
+
+### Login Page
+![image](https://github.com/thisisemre/BasicLoginPage/assets/106868668/22ea4b9f-3ad7-4190-bcdc-977d46b2d9f3)
+
+
+### Register Page
+![image](https://github.com/thisisemre/BasicLoginPage/assets/106868668/92b379cb-432e-4dab-94c9-8b88199b6c05)
+
+
+### Main Page
+![image](https://github.com/thisisemre/BasicLoginPage/assets/106868668/881b2cbe-73b1-403e-9f93-0b1f42281a0c)
+
+
+### Change Password Page
+![image](https://github.com/thisisemre/BasicLoginPage/assets/106868668/7f066453-8879-404a-ae12-fbdd2c215c9b)
+
+
+### Reset Password Page
+![image](https://github.com/thisisemre/BasicLoginPage/assets/106868668/eba07c94-3429-4734-8128-4eaf79abee49)
+![image](https://github.com/thisisemre/BasicLoginPage/assets/106868668/036a18fc-d239-44fa-9fa3-6d6a28457f77)
+
+
+
 ## Contributing
 
 Contributions to this project are encouraged! If you have any suggestions, feature requests, or bug reports, feel free to open an issue or submit a pull request.
-
-
-
-Feel free to adjust the formatting or content as needed for your GitHub repository.
