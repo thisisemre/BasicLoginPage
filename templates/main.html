@@ -3,8 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <title>Main</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        h1 {
+            color: #007bff;
+            margin-bottom: 20px;
+        }
+        p {
+            margin-bottom: 20px;
+        }
+        a {
+            text-decoration: none;
+            color: #007bff;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
-    <a href="{{url_for('logout')}}"> Logout </a>
+    <div class="container">
+        <h1>Welcome to the Main Page</h1>
+        <p>You are now logged in!</p>
+        <a href="{{url_for('logout')}}">Logout</a>
+    </div>
 </body>
 </html>
